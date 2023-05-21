@@ -23,10 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-m2md75i70!nfe2a)_b9sf+87pmy2o_xh6^rqhlyxa$g3e32i11"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["http://sacebe4207.pythonanywhere.com"]
-
+ALLOWED_HOSTS = ["apidjp.pythonanywhere.com"]
 
 # Application definition
 
@@ -80,8 +79,12 @@ WSGI_APPLICATION = "core.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "apidjp$project_db",
+        "USER": "apidjp",
+        "PASSWORD": "12345678admin",
+        "HOST": "apidjp.mysql.pythonanywhere-services.com",  # Or an IP Address that your DB is hosted on
+        "PORT": "3306",
     }
 }
 
@@ -126,7 +129,7 @@ MEDIA_URL = "/media/"
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / "static"
+STATIC_ROOT = BASE_DIR / "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
