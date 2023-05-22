@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-m2md75i70!nfe2a)_b9sf+87pmy2o_xh6^rqhlyxa$g3e32i11
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["apidjp.pythonanywhere.com"]
+ALLOWED_HOSTS = ["apidjp.pythonanywhere.com", "127.0.0.1"]
 
 # Application definition
 
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django_filters",
     "rest_framework",
     "django_cleanup.apps.CleanupConfig",
+    "message",
 ]
 
 MIDDLEWARE = [
@@ -88,6 +89,7 @@ DATABASES = {
     }
 }
 
+
 REST_FRAMEWORK = {
     "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"]
 }
@@ -116,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Baku"
 
 USE_I18N = True
 
