@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-m2md75i70!nfe2a)_b9sf+87pmy2o_xh6^rqhlyxa$g3e32i11
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["apidjp.pythonanywhere.com", "127.0.0.1"]
+ALLOWED_HOSTS = []
 
 # Application definition
 
