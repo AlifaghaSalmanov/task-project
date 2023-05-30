@@ -1,0 +1,22 @@
+version: "3.9"  # Docker Compose dosyası sürümü
+
+services:
+  webapp:  # 'webapp' adında bir servis tanımı
+    build: .  # Mevcut dizindeki Dockerfile kullanılarak servis oluşturulacak
+    ports:
+      - "8000:8000"  # Konteynırın 8000 numaralı portu dış dünyaya açık olacak
+    depends_on:
+      - db  # 'webapp' servisi, 'db' servisinin başlamasını bekleyecek
+    command: bash django-start.sh  # Konteynır başlatıldığında 'django-start.sh' betiği çalıştırılacak
+
+  db:  # 'db' adında bir servis tanımı
+    image: postgres:15.2-alpine  # 'postgres:15.2-alpine' imajı kullanılacak
+    volumes:
+      - dbdata:/var/lib/postgresql/data  # 'dbdata' birimi, '/var/lib/postgresql/data' yolunda saklanacak
+    environment:
+      POSTGRES_USER: postgres  # 'POSTGRES_USER' değişkeni 'postgres' olarak ayarlanacak
+      POSTGRES_DB: postgres  # 'POSTGRES_DB' değişkeni 'postgres' olarak ayarlanacak
+      POSTGRES_PASSWORD: mysecretpassword  # 'POSTGRES_PASSWORD' değişkeni 'mysecretpassword' olarak ayarlanacak
+
+volumes:
+  dbdata:  # 'dbdata' adında bir birim (volume) tanımı
