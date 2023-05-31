@@ -1,0 +1,104 @@
+.contact {
+  background-image: url("https://s35691.pcdn.co/wp-content/uploads/2022/06/mature-teacher-and-group-of-his-students-using-laptop-at-the-picture-id1334065509.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  margin-top: 70px;
+
+  .contact-wrapper {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(75, 9, 121, 1) 35%
+    );
+    background: rgba(2, 0, 36, 0.8);
+    height: 100vh;
+    h3 {
+      color: white;
+      text-align: center;
+      padding-top: 40px ;
+      font-weight: 400;
+      font-size: 40px;
+    }
+  }
+  form {
+    color: white;
+    width: 50%;
+    margin: 50px  auto ;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding:  40px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .text-error-m {
+      margin: 1em 12em 0em 0em !important;
+    }
+    .form-button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    button {
+      cursor: pointer;
+      margin: 10px auto;
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(75, 9, 121, 1) 60%
+      );
+      background: rgba(2, 0, 36);
+      color: white;
+      border-radius: 5px;
+      padding: 15px 25px;
+      transition: 0.3s;
+      border: none;
+      &:hover {
+        background-color: #6f0e9d;
+      }
+    }
+
+    input {
+      display: inline-block;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid;
+      padding: 20px 40px;
+    }
+    textarea {
+      padding: 10px 30px;
+      // margin: 20px 0;
+      width: 100%;
+      resize: none;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid;
+    }
+  }
+  span {
+    color: #bf1650;
+    font-size: 10px;
+    width: 70%;
+    margin: 40px 40px 0 40px;
+  }
+
+  span::before {
+    display: inline;
+    content: "⚠ ";
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  form {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 998px) {
+  form {
+    width: 85% !important;
+  }
+}

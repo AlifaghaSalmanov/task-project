@@ -1,0 +1,35 @@
+.hero{
+   margin: 0 auto;
+    .hero-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color:rgb(111, 14, 157);
+        color: white;
+        padding: 120px 0;
+        h1{
+            padding: 20px 0;
+            font-size: 50px;
+        }
+    }
+    .swiper-button-next {
+        background-image: url(../../../Media/fi_arrow-right-circle.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+      .swiper-button-next::after {
+        display: none;
+      }
+      .swiper-button-prev {
+        background-image: url(../../../Media/fi_arrow-left-circle.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+      }
+      .swiper-button-prev::after {
+        display: none;
+      }
+    
+}

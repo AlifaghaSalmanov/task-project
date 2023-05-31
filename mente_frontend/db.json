@@ -1,0 +1,188 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "json-sdddd",
+      "surname": "tydmdkdm",
+      "email": "xanim@gmail.com",
+      "text": "njfnvjkvnfkm"
+    },
+    {
+      "name": "Problem Solving",
+      "surname": "psjknfejkfnc",
+      "email": "dpkhanim@gmail.com",
+      "message": "kmkkl",
+      "id": 2
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": " mm,",
+      "id": 3
+    },
+    {
+      "name": "Xanim",
+      "surname": "Pashayeva",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "deg frg ,,wtl;lyp",
+      "id": 4
+    },
+    {
+      "name": "Xanim",
+      "surname": "s",
+      "email": "sabirapasayeva@gmail.com",
+      "message": "zzzz",
+      "id": 5
+    },
+    {
+      "name": "Xanim",
+      "surname": "ddd",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "sss",
+      "id": 6
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 7
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 8
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 9
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 10
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 11
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 12
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "qa",
+      "id": 13
+    },
+    {
+      "name": "sssss",
+      "surname": "dd",
+      "email": "7f3p8e2@code.edu.az",
+      "message": "ffff",
+      "id": 14
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "pashayevakhanim@gmail.com",
+      "message": "ll",
+      "id": 15
+    },
+    {
+      "name": "sjssjsjsj",
+      "surname": "psjknfejkfnc",
+      "email": "xcsc@gmail.com",
+      "message": "mm",
+      "id": 16
+    },
+    {
+      "name": "Xanim",
+      "surname": "psjknfejkfnc",
+      "email": "dkhanimp@gmail.com",
+      "message": "ww",
+      "id": 17
+    },
+    {
+      "name": "Xanim",
+      "surname": "c",
+      "email": "cocoa@gmail.com",
+      "message": "cvc",
+      "id": 18
+    }
+  ],
+  "trainings": [
+    {
+      "id": 1,
+      "training_title": "Lorem ipsum dolor",
+      "training_info": "Lorem ipsum dolor",
+      "training_image": "../frontend/src/Media/trainings1.png",
+      "training_details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque, quia voluptas dicta architecto possimus adipisci eligendi error quasi autem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias sunt nisi tempore necessitatibus, repellat harum alias atque recusandae voluptate assumenda!"
+    },
+    {
+      "id": 2,
+      "training_title": "Lorem ipsum dolor2",
+      "training_info": "Lorem ipsum dolor",
+      "training_image": "../frontend/src/Media/trainings1.png"
+    },
+    {
+      "id": 3,
+      "training_title": "Lorem ipsum dolor2",
+      "training_info": "Lorem ipsum dolor",
+      "training_image": "../frontend/src/Media/trainings1.png"
+    }
+  ],
+  "trainers": [
+    {
+      "id": 1,
+      "trainer_name": "Ad",
+      "trainer_surname": "Soyad",
+      "trainer_info": "Lorem ipsummmm",
+      "trainer_image": "/frontend/src/Media/trainer.png"
+    },
+    {
+      "id": 2,
+      "trainer_name": "Ad",
+      "trainer_surname": "Soyad",
+      "trainer_info": "Lorem ipsummmm",
+      "trainer_image": "/frontend/src/Media/trainer.png"
+    },
+    {
+      "id": 3,
+      "trainer_name": "Ad",
+      "trainer_surname": "Soyad",
+      "trainer_info": "Lorem ipsummmm",
+      "trainer_image": "/frontend/src/Media/trainer.png"
+    },
+    {
+      "id": 4,
+      "trainer_name": "Ad",
+      "trainer_surname": "Soyad",
+      "trainer_info": "Lorem ipsummmm",
+      "trainer_image": "/frontend/src/Media/trainer.png"
+    },
+    {
+      "id": 5,
+      "trainer_name": "Ad",
+      "trainer_surname": "Soyad",
+      "trainer_info": "Lorem ipsummmm",
+      "trainer_image": "/frontend/src/Media/trainer.png"
+    }
+  ]
+}

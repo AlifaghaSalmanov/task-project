@@ -1,0 +1,92 @@
+.trainers-info {
+    padding: 50px 0;
+    
+    .training-wrapper-container{
+        
+        margin: 0px 50px 80px 50px ;
+
+    }
+    .trainers-info-title-link{
+      padding: 40px ;
+      cursor: pointer;
+      color: #686464;
+      a{
+        color: #686464;
+      }
+    }
+    .swiper-button-next {
+        padding: 25px;
+        background-image: url(../../../Media/next.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        
+      }
+      .swiper-button-next::after {
+        display: none;
+      }
+      .swiper-button-prev {
+        background-image: url(../../../Media/prev.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+        padding: 25px;
+    
+      }
+      .swiper-button-prev::after {
+        display: none;
+      }
+  .swiper-pagination-bullet {
+    margin-top: 100px !important;
+    padding: 5px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #6f0e9d;
+    padding: 5px;
+  }
+  .teachers-info {
+    color: #686464;
+
+    h3 {
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-size: 30px;
+    }
+    p {
+      margin-bottom: 30px;
+    }
+  }
+//   .acordion-tab{
+// padding: 20px 0;
+//   }
+  .accordion {
+    background-color: #eeebeb;
+    padding: 10px 50px;
+    background: rgb(149,88,178);
+    background: linear-gradient(105deg, rgba(149,88,178,0.9949229691876751) 0%, rgba(75,9,121,1) 35%);
+    width: 100%;
+ color: white;
+ font-weight: 600;
+ svg{
+  color: white !important;
+ }
+  }
+  padding: 100px 0;
+  img {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 778px) {
+    .trainers-info {
+        img{
+            max-width: 550px;
+          display: inline-block;
+          height: 100%;
+        }
+    }
+}

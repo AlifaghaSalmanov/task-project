@@ -1,0 +1,89 @@
+.trainings {
+  padding: 30px;
+  .training-title-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .training-list-wrapper {
+    .training-list-link{
+      color:#16011e !important;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover{
+        color:rgb(149,88,178) !important;
+      }
+      p{
+        padding: 10px 0;
+        font-size: 15px;
+      }
+    }
+    li {
+      margin: 15px 0;
+    }
+  }
+  h3 {
+    margin-left: 20px;
+    font-size: 26px;
+    color: #686464;
+  }
+  .trainings-list {
+    display: flex;
+    align-items: center;
+  
+    img {
+      height: 70px;
+      
+    }
+    li {
+      margin-left: 20px;
+    }
+  }
+  .trainings-bottom {
+    text-align: right;
+    padding-bottom: 20px;
+    a {
+      border-radius: 23px;
+      color: white;
+      padding: 16px 50px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+      background: rgb(149,88,178);
+      background: linear-gradient(105deg, rgba(149,88,178,0.9949229691876751) 0%, rgba(75,9,121,1));
+  
+    }
+  }
+}
+
+
+@media only screen and (max-width: 998px) {
+  .training-title-wrapper{
+    .training-image-main{
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 778px) {
+  .training-title-wrapper{
+    .training-image-main{
+      
+      display: none;
+    }
+  }
+}
+
+
+// @media only screen and (max-width: 778px) {
+//   .training-title-wrapper{
+//     .training-image-main{
+//       height: 80vh;
+//       width: 90%;
+//       margin: 50px auto !important;
+//     }
+//   }
+// }

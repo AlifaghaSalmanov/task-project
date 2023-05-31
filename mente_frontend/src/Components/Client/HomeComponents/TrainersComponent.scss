@@ -1,0 +1,117 @@
+.trainers {
+
+  .swiper-button-next {
+    padding: 20px;
+    background-image: url(../../../Media/next.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .swiper-button-next::after {
+    display: none;
+  }
+  .swiper-button-prev {
+    background-image: url(../../../Media/prev.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    padding: 20px;
+    margin-right: 40px;
+  }
+  .swiper-button-prev::after {
+    display: none;
+  }
+
+  .trainers-info-card-bottom {
+    background-color: rgb(111, 14, 157);
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    padding: 15px 40px;
+    border: none;
+    z-index: 990 !important;
+    margin: 0 50px 80px 50px;
+
+    p {
+      font-size: 10px;
+      padding: 10px 0;
+    }
+  }
+  .trainers-wrapper {
+    .swiper-pagination-bullet {
+      margin-top: 50px !important;
+      background-color: #6f0e9d;
+      padding: 5px;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: #6f0e9d;
+      padding: 5px;
+    }
+    .trainer-info-card {
+      position: relative;
+      width: 100%;
+      .trainer-photo {
+        position: absolute;
+        z-index: 500;
+        left: 2%;
+        bottom: 0%;
+        object-fit: cover;
+        height: 100%;
+      }
+      .trainers-info-card-bg {
+        position: relative;
+        left: 10%;
+        .trainers-info-card-bg-1 {
+          position: absolute;
+          top: 43px;
+          left: 20px;
+          z-index: 1;
+          width: 40%;
+        }
+        .trainers-info-card-bg-2 {
+          width: 60%;
+          z-index: -1 !important;
+          clip-path: polygon(86% 49%, 0 0, 0 100%);
+
+          margin: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .swiper-container {
+    width: 506px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .trainers {
+    padding: 30px;
+
+    p {
+      font-size: 10px;
+    }
+  }
+  .swiper-container {
+    width: 576px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 10px !important;
+  }
+}
+
+@media screen and (min-width: 778px) {
+  .swiper-container {
+    width: 768px;
+  }
+ 
+}
+@media screen and (max-width: 992px) {
+  .swiper-container {
+    width: 992px;
+  }
+
+}

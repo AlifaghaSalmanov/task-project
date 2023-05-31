@@ -1,0 +1,29 @@
+.scroll-to-top {
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      height: 60px;
+      width: 60px;
+      font-size: 50px;
+      font-weight: 700;
+      border-radius: 50%;
+      background-color: #bc7bdb;
+      border: none;
+      transform: scale(1);
+      transition: 0.3 ease;
+      color: white;
+      background: linear-gradient(105deg, rgba(149,88,178,0.9949229691876751) 0%, rgba(75,9,121,1));
+      &:hover {
+        transform: scale(1.2);
+        transition: 0.3 ease;
+        background: rgb(149,88,178);
+
+
+      }
+    }
+  }
